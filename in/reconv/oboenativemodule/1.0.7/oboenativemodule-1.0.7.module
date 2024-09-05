@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "in.reconv",
+    "module": "oboenativemodule",
+    "version": "1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "oboenativemodule-1.0.7.aar",
+          "url": "oboenativemodule-1.0.7.aar",
+          "size": 1377485,
+          "sha512": "0a00ec0b277ddd8f9a5039001467670702a65d08745367754fdfe7bfaa126141fdcabb5633c08983a2b3d0ad8f3d1b1d32a0d9c7453a3edb04a425a6e9e8e976",
+          "sha256": "7c79c9d9ac06d8aeb04c02652ce4f65e1658286bdf5e32cb837c37523a2ed687",
+          "sha1": "233430c3861e891e10804cd99340a99f6cc52013",
+          "md5": "bfb4cf735ee13d8db14b3b05f12eeb01"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oboenativemodule-1.0.7.aar",
+          "url": "oboenativemodule-1.0.7.aar",
+          "size": 1377485,
+          "sha512": "0a00ec0b277ddd8f9a5039001467670702a65d08745367754fdfe7bfaa126141fdcabb5633c08983a2b3d0ad8f3d1b1d32a0d9c7453a3edb04a425a6e9e8e976",
+          "sha256": "7c79c9d9ac06d8aeb04c02652ce4f65e1658286bdf5e32cb837c37523a2ed687",
+          "sha1": "233430c3861e891e10804cd99340a99f6cc52013",
+          "md5": "bfb4cf735ee13d8db14b3b05f12eeb01"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oboenativemodule-1.0.7-sources.jar",
+          "url": "oboenativemodule-1.0.7-sources.jar",
+          "size": 2722,
+          "sha512": "7b469088911cd4dbdb891530b3f230ed3e6d63c60a2991a3c8db951fe09f1ebb3a25b89e7d98a41f4e21a75e0f8f79fed4c5ab9c2ceab3c3e22ec145fa018c48",
+          "sha256": "da5b3ea193d2f01b3ddc40a025eb7980744245fb7f6caa59ec0a701d79964176",
+          "sha1": "2099c6fcfced2d60c5279215633e13324308deeb",
+          "md5": "c002ccb70195b6562d350b9da73c7c2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "in.reconv",
+    "module": "navigator",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "navigator-0.1.aar",
+          "url": "navigator-0.1.aar",
+          "size": 10386,
+          "sha512": "3fc4f3912c8dad07e5197b596593a3d2bb55c3f4d3f2166f69ccc67ad3c8ec560f1d1965b1b9a33257a667265f13595fa764b1eab4b755deeb764622ca699906",
+          "sha256": "9f79e46470462e1286634f74e54fbf589e93c7f13a874d437b57232f3443ce67",
+          "sha1": "bba40bdd1ec8697e1d255cc46df28dd4285dd8dc",
+          "md5": "478ed53c7b579ea25058330652051f3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigator-0.1.aar",
+          "url": "navigator-0.1.aar",
+          "size": 10386,
+          "sha512": "3fc4f3912c8dad07e5197b596593a3d2bb55c3f4d3f2166f69ccc67ad3c8ec560f1d1965b1b9a33257a667265f13595fa764b1eab4b755deeb764622ca699906",
+          "sha256": "9f79e46470462e1286634f74e54fbf589e93c7f13a874d437b57232f3443ce67",
+          "sha1": "bba40bdd1ec8697e1d255cc46df28dd4285dd8dc",
+          "md5": "478ed53c7b579ea25058330652051f3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "navigator-0.1-sources.jar",
+          "url": "navigator-0.1-sources.jar",
+          "size": 5236,
+          "sha512": "0ccc123f7148908d4d9408c8d0eb2850d3ee46f09161504eb1679b1fa2e0f265ecdc2dc08f708b7914f9b1d4f0cb1cb940da87a1f30886f759a180ad504bb26d",
+          "sha256": "20d9a0e3dba608a877837bdf5b224166235880e6435d85a58d31477068327b71",
+          "sha1": "b4bc2e084c4e0b59d459f5f2f48c097c25dfaa92",
+          "md5": "40ecfc4dc45363557835a5e273ed5a98"
+        }
+      ]
+    }
+  ]
+}

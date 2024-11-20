@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "in.reconv",
+    "module": "oboemusicplayerandrecorder",
+    "version": "0.1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.1.8.aar",
+          "url": "oboemusicplayerandrecorder-0.1.8.aar",
+          "size": 1395469,
+          "sha512": "826e83b968ba7f5fe7b0bf301ccccfacf2320a4ce9b8f07185119a088e7a84ab79d34e589c787d9de0a85011551ea6ba885da2280a3010dc971744f065f75fc0",
+          "sha256": "16bd962e89296751a6b15a6992081f608607cba47bed264338a52c5eeafe4ace",
+          "sha1": "77a44160fb05915a0b415371183340ccc5ffeb24",
+          "md5": "777367147928de53e951147a808ae986"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.1.8.aar",
+          "url": "oboemusicplayerandrecorder-0.1.8.aar",
+          "size": 1395469,
+          "sha512": "826e83b968ba7f5fe7b0bf301ccccfacf2320a4ce9b8f07185119a088e7a84ab79d34e589c787d9de0a85011551ea6ba885da2280a3010dc971744f065f75fc0",
+          "sha256": "16bd962e89296751a6b15a6992081f608607cba47bed264338a52c5eeafe4ace",
+          "sha1": "77a44160fb05915a0b415371183340ccc5ffeb24",
+          "md5": "777367147928de53e951147a808ae986"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.1.8-sources.jar",
+          "url": "oboemusicplayerandrecorder-0.1.8-sources.jar",
+          "size": 3821,
+          "sha512": "91c568d6dc83a86595f95680dc999a4b61e5bb74cc3a85fd487786c2d006146e313f1b09b125264a6d43d187d54fd46286e9ea6fb268e33a2ce6fa3dc1a38018",
+          "sha256": "f47825bcd4f94bbb568ed78e6a54e067216b683d9b58fc89a7f993f2af2f8c93",
+          "sha1": "a91cb225c05abbc57c96eb7ef4b514bdeb1eb0a0",
+          "md5": "16353113fd70c82d0df03a9e40d5a915"
+        }
+      ]
+    }
+  ]
+}

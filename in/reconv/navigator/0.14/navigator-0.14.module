@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "in.reconv",
+    "module": "navigator",
+    "version": "0.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigator-0.14.aar",
+          "url": "navigator-0.14.aar",
+          "size": 19669,
+          "sha512": "fd25e2cfee37526bcda98d14864e468e4a00d8ecfeeab8537d5652107bf9d3153ae5c0e3ce4d36a4e924943ed45747b98c89312314fc1774fed681536355e2e3",
+          "sha256": "266e4f40d63931272a240acb0f8ffc8c9d812e944975e4321fc5bb506ff14c10",
+          "sha1": "53e1c3baa57b36f85183a1585cbb228664676a8e",
+          "md5": "46ac067b7b82bf0ea63461820fc113c1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "io.livekit",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "io.agora.rtc",
+          "module": "voice-sdk",
+          "version": {
+            "requires": "4.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigator-0.14.aar",
+          "url": "navigator-0.14.aar",
+          "size": 19669,
+          "sha512": "fd25e2cfee37526bcda98d14864e468e4a00d8ecfeeab8537d5652107bf9d3153ae5c0e3ce4d36a4e924943ed45747b98c89312314fc1774fed681536355e2e3",
+          "sha256": "266e4f40d63931272a240acb0f8ffc8c9d812e944975e4321fc5bb506ff14c10",
+          "sha1": "53e1c3baa57b36f85183a1585cbb228664676a8e",
+          "md5": "46ac067b7b82bf0ea63461820fc113c1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "navigator-0.14-sources.jar",
+          "url": "navigator-0.14-sources.jar",
+          "size": 8612,
+          "sha512": "e984778cc08bf150cd8cd63269fc604566f5bb6b616f1f5b65b0e731194020cee9318e34c5f683e05e9c5fb9774c9c67c5932baf2fa623fbde29f36f3ec12e69",
+          "sha256": "32fb0c2b612652985f681ee03e34eac0d2784c6431c4e7167c9325ce02d83d33",
+          "sha1": "12fcb9219781fad28e41d9ba5a1191619716ca42",
+          "md5": "eb070cb460501b71557b33fa8e195213"
+        }
+      ]
+    }
+  ]
+}

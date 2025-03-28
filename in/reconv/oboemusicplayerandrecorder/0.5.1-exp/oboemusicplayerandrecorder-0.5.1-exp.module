@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "in.reconv",
+    "module": "oboemusicplayerandrecorder",
+    "version": "0.5.1-exp",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.5.1-exp.aar",
+          "url": "oboemusicplayerandrecorder-0.5.1-exp.aar",
+          "size": 1774145,
+          "sha512": "ef88aa5aa2c2461849f7678f04aa10015003295d4757bf676919edb944d40711256106a28e3bc4c41548d8f40ca3663ecd0cdeda7243ad8ac8adae0e427df798",
+          "sha256": "e033578fadab673f8fa16afd0e53c6a57f68e13c8270bcbcf0c2ad7c58703779",
+          "sha1": "d54146e79a3bc25de2af0df629bf96b2c40b9611",
+          "md5": "30a82acd67527d4015d3454fcb19a96b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.5.1-exp.aar",
+          "url": "oboemusicplayerandrecorder-0.5.1-exp.aar",
+          "size": 1774145,
+          "sha512": "ef88aa5aa2c2461849f7678f04aa10015003295d4757bf676919edb944d40711256106a28e3bc4c41548d8f40ca3663ecd0cdeda7243ad8ac8adae0e427df798",
+          "sha256": "e033578fadab673f8fa16afd0e53c6a57f68e13c8270bcbcf0c2ad7c58703779",
+          "sha1": "d54146e79a3bc25de2af0df629bf96b2c40b9611",
+          "md5": "30a82acd67527d4015d3454fcb19a96b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.5.1-exp-sources.jar",
+          "url": "oboemusicplayerandrecorder-0.5.1-exp-sources.jar",
+          "size": 14648,
+          "sha512": "52e99f5d0f1e48ba575c965d2a92b1a84cd57223ee6450a8cd47a976d28f8710cafa7d9ea11275f80bf0bf684ab4ea7a711c1e76f100080264a2d32e206f5c1f",
+          "sha256": "6e15391f5838685caff0391aa1aa17bb662ef3dc7ba2fee6ba60d948ecb55df4",
+          "sha1": "1212f38fe6f3210ef343ccef8498cb14befc8a0a",
+          "md5": "56471c26a905683ad23f0c198fe8f7dc"
+        }
+      ]
+    }
+  ]
+}

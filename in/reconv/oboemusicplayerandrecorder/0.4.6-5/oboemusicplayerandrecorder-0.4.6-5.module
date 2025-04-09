@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "in.reconv",
+    "module": "oboemusicplayerandrecorder",
+    "version": "0.4.6-5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.4.6-5.aar",
+          "url": "oboemusicplayerandrecorder-0.4.6-5.aar",
+          "size": 1766040,
+          "sha512": "22c154cdf35ce6d5da9924e1f6a209b20211170bf013617a853038f63c84489675998c90889a022827334eaa5a6aceb93a0ff6d8b2e50f0390255df6faa1d1a7",
+          "sha256": "26dafedd01c002cae6236da412fe838de0c1ca1d02f42a4696c3b02a41ac0f4b",
+          "sha1": "06d0a509c04763f74ea7da565db745ff628b9e29",
+          "md5": "d6c2be9ca848c1ff0d463f4954f1bece"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.4.6-5.aar",
+          "url": "oboemusicplayerandrecorder-0.4.6-5.aar",
+          "size": 1766040,
+          "sha512": "22c154cdf35ce6d5da9924e1f6a209b20211170bf013617a853038f63c84489675998c90889a022827334eaa5a6aceb93a0ff6d8b2e50f0390255df6faa1d1a7",
+          "sha256": "26dafedd01c002cae6236da412fe838de0c1ca1d02f42a4696c3b02a41ac0f4b",
+          "sha1": "06d0a509c04763f74ea7da565db745ff628b9e29",
+          "md5": "d6c2be9ca848c1ff0d463f4954f1bece"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.4.6-5-sources.jar",
+          "url": "oboemusicplayerandrecorder-0.4.6-5-sources.jar",
+          "size": 11247,
+          "sha512": "16aa816706f4c0d185bfe7bc1bb239f0ea5a535f34435ef0896e14a5171a19348cdf6f3dfd9ca314ee9692844a41d3a2102ae3076d9daba61726d6c01de8953d",
+          "sha256": "fdb2ffa8ad1c5750c1f0bc3eeb3d80b93b6c9af53174bb14bc2c9568d7f31bfa",
+          "sha1": "cda2df24009dcfc7c13f84eb4aab672c3fa1f12a",
+          "md5": "318db1e00241502f5c1919b0606270c8"
+        }
+      ]
+    }
+  ]
+}

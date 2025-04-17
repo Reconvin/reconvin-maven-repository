@@ -3,7 +3,7 @@
   "component": {
     "group": "in.reconv",
     "module": "oboemusicplayerandrecorder",
-    "version": "0.4.7",
+    "version": "0.6.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "oboemusicplayerandrecorder-0.4.7.aar",
-          "url": "oboemusicplayerandrecorder-0.4.7.aar",
-          "size": 1766328,
-          "sha512": "d198f446fed6918ab719d8d4fb24cdaddbc4b639a8f1dad56d914668555f16a37dcb3dc941ff1b08b52488749641beb9116fcda5dcfd021395845bc03d7adde8",
-          "sha256": "941214b64771bc3aa234ba6ddc305686ee81e6947fcde29c309b5aba231774d0",
-          "sha1": "3a4ae2cc7b3847dd0f0a11786172865d2e68337f",
-          "md5": "da154880ba96b901984e0e4ff21ca600"
+          "name": "oboemusicplayerandrecorder-0.6.1.aar",
+          "url": "oboemusicplayerandrecorder-0.6.1.aar",
+          "size": 1779997,
+          "sha512": "068187ffd4d2342a762f497992e345d2107239c687487726d5bf5a9d47661aa3f6356e7769301e35163ddfa6741fb3d4a1ed9c2e4e93c75db192a49888d8588b",
+          "sha256": "6992976d6bf5b5f03b07260b5fb9e005a971fee77e59b69eca6df1c0ad706aa7",
+          "sha1": "1c96ca14b35c4b74453d71b75492d24efccecac2",
+          "md5": "4cdb4d863cb839b315ac1274f7ddd8da"
         }
       ]
     },
@@ -94,13 +94,13 @@
       ],
       "files": [
         {
-          "name": "oboemusicplayerandrecorder-0.4.7.aar",
-          "url": "oboemusicplayerandrecorder-0.4.7.aar",
-          "size": 1766328,
-          "sha512": "d198f446fed6918ab719d8d4fb24cdaddbc4b639a8f1dad56d914668555f16a37dcb3dc941ff1b08b52488749641beb9116fcda5dcfd021395845bc03d7adde8",
-          "sha256": "941214b64771bc3aa234ba6ddc305686ee81e6947fcde29c309b5aba231774d0",
-          "sha1": "3a4ae2cc7b3847dd0f0a11786172865d2e68337f",
-          "md5": "da154880ba96b901984e0e4ff21ca600"
+          "name": "oboemusicplayerandrecorder-0.6.1.aar",
+          "url": "oboemusicplayerandrecorder-0.6.1.aar",
+          "size": 1779997,
+          "sha512": "068187ffd4d2342a762f497992e345d2107239c687487726d5bf5a9d47661aa3f6356e7769301e35163ddfa6741fb3d4a1ed9c2e4e93c75db192a49888d8588b",
+          "sha256": "6992976d6bf5b5f03b07260b5fb9e005a971fee77e59b69eca6df1c0ad706aa7",
+          "sha1": "1c96ca14b35c4b74453d71b75492d24efccecac2",
+          "md5": "4cdb4d863cb839b315ac1274f7ddd8da"
         }
       ]
     },
@@ -114,13 +114,13 @@
       },
       "files": [
         {
-          "name": "oboemusicplayerandrecorder-0.4.7-sources.jar",
-          "url": "oboemusicplayerandrecorder-0.4.7-sources.jar",
-          "size": 11247,
-          "sha512": "16aa816706f4c0d185bfe7bc1bb239f0ea5a535f34435ef0896e14a5171a19348cdf6f3dfd9ca314ee9692844a41d3a2102ae3076d9daba61726d6c01de8953d",
-          "sha256": "fdb2ffa8ad1c5750c1f0bc3eeb3d80b93b6c9af53174bb14bc2c9568d7f31bfa",
-          "sha1": "cda2df24009dcfc7c13f84eb4aab672c3fa1f12a",
-          "md5": "318db1e00241502f5c1919b0606270c8"
+          "name": "oboemusicplayerandrecorder-0.6.1-sources.jar",
+          "url": "oboemusicplayerandrecorder-0.6.1-sources.jar",
+          "size": 11304,
+          "sha512": "58f8f79d857b60e817dec45f9a00c51c884e3ffb0e791c17b4d215fc23ca2d5a973d1be038b3548ba1a28e85343101667e0e2deec73e8245060461044e362f8c",
+          "sha256": "c036a58727c4f17dc60385cd49205a8f7e768ac899ac5b5989b7f791fd904520",
+          "sha1": "94f889d3626c6563197b4fb05d27c137fe2640c6",
+          "md5": "41c77479d3aaeaa5bdc74fd51b071a44"
         }
       ]
     }

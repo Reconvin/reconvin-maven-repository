@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>in.reconv</groupId>
   <artifactId>oboemusicplayerandrecorder</artifactId>
-  <version>0.4.7</version>
+  <version>0.6.1</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>

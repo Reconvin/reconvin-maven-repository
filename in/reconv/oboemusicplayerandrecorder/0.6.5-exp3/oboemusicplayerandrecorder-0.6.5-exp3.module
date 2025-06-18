@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "in.reconv",
+    "module": "oboemusicplayerandrecorder",
+    "version": "0.6.5-exp3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.6.5-exp3.aar",
+          "url": "oboemusicplayerandrecorder-0.6.5-exp3.aar",
+          "size": 1788822,
+          "sha512": "338773eb2c9d9375e805726cadc611e9206b2bf2efcff4f6f6cac1dbe251329589ffb2a4e188ae06df7276c486ded1f4eb109194fb95bdfd32c8d30214e17e14",
+          "sha256": "8646e2a7da6ef10c9edfda68653c68ad83ca3003f087382aa7aade5516325598",
+          "sha1": "11c93fe1de8737047b93a4a773573c4ec864206e",
+          "md5": "2d27623c74b53e0307f498c78655500a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.6.5-exp3.aar",
+          "url": "oboemusicplayerandrecorder-0.6.5-exp3.aar",
+          "size": 1788822,
+          "sha512": "338773eb2c9d9375e805726cadc611e9206b2bf2efcff4f6f6cac1dbe251329589ffb2a4e188ae06df7276c486ded1f4eb109194fb95bdfd32c8d30214e17e14",
+          "sha256": "8646e2a7da6ef10c9edfda68653c68ad83ca3003f087382aa7aade5516325598",
+          "sha1": "11c93fe1de8737047b93a4a773573c4ec864206e",
+          "md5": "2d27623c74b53e0307f498c78655500a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.6.5-exp3-sources.jar",
+          "url": "oboemusicplayerandrecorder-0.6.5-exp3-sources.jar",
+          "size": 11782,
+          "sha512": "8f537fcea03b6d86198a561f1634fe800bd471b4c429b6507a6c3330151bec78ad0133c07d61455b91b085f7bf3047af17d3bb1208f3e446d11f272954322d57",
+          "sha256": "a7708588c9aa7a066bba9afed88fc7805c8dc9dd367f7d9bb7d7c2fbfbc05263",
+          "sha1": "bee5fb2b0eff7dcd586895cab493b6e081d19212",
+          "md5": "d9d2f2134924126226fb51edea542b36"
+        }
+      ]
+    }
+  ]
+}

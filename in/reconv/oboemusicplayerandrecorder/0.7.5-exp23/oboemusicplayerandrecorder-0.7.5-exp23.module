@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "in.reconv",
+    "module": "oboemusicplayerandrecorder",
+    "version": "0.7.5-exp23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.7.5-exp23.aar",
+          "url": "oboemusicplayerandrecorder-0.7.5-exp23.aar",
+          "size": 2159732,
+          "sha512": "f13999d9c8dda025c8d71cae59945aba59c8814a9d34a180a77b483cb8f9c958baee7fe7572aabca689d3500880db07c89ff2644fec3448f64e4a64b316cc55f",
+          "sha256": "8cd649bf2e7613071f549896248468a3530397e1a2ffe734b8add8e72609445e",
+          "sha1": "09db379f718c90f369da32158feb1d326e8810d1",
+          "md5": "e311c0a4cd664270ee043d02301673df"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.7.5-exp23.aar",
+          "url": "oboemusicplayerandrecorder-0.7.5-exp23.aar",
+          "size": 2159732,
+          "sha512": "f13999d9c8dda025c8d71cae59945aba59c8814a9d34a180a77b483cb8f9c958baee7fe7572aabca689d3500880db07c89ff2644fec3448f64e4a64b316cc55f",
+          "sha256": "8cd649bf2e7613071f549896248468a3530397e1a2ffe734b8add8e72609445e",
+          "sha1": "09db379f718c90f369da32158feb1d326e8810d1",
+          "md5": "e311c0a4cd664270ee043d02301673df"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oboemusicplayerandrecorder-0.7.5-exp23-sources.jar",
+          "url": "oboemusicplayerandrecorder-0.7.5-exp23-sources.jar",
+          "size": 15140,
+          "sha512": "fe353dd676709884c301027f7242368a5533a25bd71a9da78771508d21a90071c035404f13a2fa80981c22d7c4010a58878046c98fd26e3c62b1fe6ab4684933",
+          "sha256": "dd8c31a366aef68b5f73d2a824e2c1f4f5f7d76c5e5d3893e2aeeb4ef57b27da",
+          "sha1": "adb23d7a1d341a688f866838854558aad705e79a",
+          "md5": "4597b2d227052e025110855752a7e63f"
+        }
+      ]
+    }
+  ]
+}

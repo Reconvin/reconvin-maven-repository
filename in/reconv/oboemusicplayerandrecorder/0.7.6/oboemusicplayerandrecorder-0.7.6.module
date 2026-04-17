@@ -35,11 +35,11 @@
         {
           "name": "oboemusicplayerandrecorder-0.7.6.aar",
           "url": "oboemusicplayerandrecorder-0.7.6.aar",
-          "size": 2060404,
-          "sha512": "3e3fee05d9cb9c23b485eb5a3b78c2872b6db2122d1089f92ee8beb93eed62648aaca372a755a61ed476fd19d21874802cdc13817e80e1bd0d540949803ee920",
-          "sha256": "316ceb5a479719543993aa03b2d53c0160b68a9b9a4305c3cfbb43bca0f1b0ad",
-          "sha1": "0faeb6e901c197345e3681b70d97e6ab740af5aa",
-          "md5": "b6ca94d21cce869cf3baa4e8abc07097"
+          "size": 2306859,
+          "sha512": "afb7ddb337781bc02e0bf687a6798e55f36e924861910ae5a7d1c03b14abe9429ffbdbf27fb9582adab99dbe06bcb24d178f925b9b23a0a67ad77aaa9002ef1a",
+          "sha256": "ab84726af144472a27fb790028241954544434cf49551ce77a595e00939ee601",
+          "sha1": "a39abea5688230300c30d5ebca53f5c6650d8e29",
+          "md5": "b80993e689aec1120daee89e1cdcb99a"
         }
       ]
     },
@@ -96,11 +96,11 @@
         {
           "name": "oboemusicplayerandrecorder-0.7.6.aar",
           "url": "oboemusicplayerandrecorder-0.7.6.aar",
-          "size": 2060404,
-          "sha512": "3e3fee05d9cb9c23b485eb5a3b78c2872b6db2122d1089f92ee8beb93eed62648aaca372a755a61ed476fd19d21874802cdc13817e80e1bd0d540949803ee920",
-          "sha256": "316ceb5a479719543993aa03b2d53c0160b68a9b9a4305c3cfbb43bca0f1b0ad",
-          "sha1": "0faeb6e901c197345e3681b70d97e6ab740af5aa",
-          "md5": "b6ca94d21cce869cf3baa4e8abc07097"
+          "size": 2306859,
+          "sha512": "afb7ddb337781bc02e0bf687a6798e55f36e924861910ae5a7d1c03b14abe9429ffbdbf27fb9582adab99dbe06bcb24d178f925b9b23a0a67ad77aaa9002ef1a",
+          "sha256": "ab84726af144472a27fb790028241954544434cf49551ce77a595e00939ee601",
+          "sha1": "a39abea5688230300c30d5ebca53f5c6650d8e29",
+          "md5": "b80993e689aec1120daee89e1cdcb99a"
         }
       ]
     },
@@ -116,11 +116,11 @@
         {
           "name": "oboemusicplayerandrecorder-0.7.6-sources.jar",
           "url": "oboemusicplayerandrecorder-0.7.6-sources.jar",
-          "size": 11621,
-          "sha512": "ff2d531d23d2d15b066d108fb2ecb9fb3125ad1862e4befee079c26d61da02c32fea81af55534e9b83c1dcd9015054e2d39915490b5b374fe6b47dd8fb5d0099",
-          "sha256": "3f1a74c2ef6d87aae220de103661601c80e7b549ee0faf3f0d850159caf6692f",
-          "sha1": "07bcba14eb56baf6dd063589b4c4bd86985496be",
-          "md5": "dfed5cafbeec7bad9bcbc640f2b8d65a"
+          "size": 23055,
+          "sha512": "82024b051d812b08903e04a98c856fb543aa1ff755a779b1a505169a28f9a7bdf5e45b2afb6c0c73a39a6b17b6946a6b810d97f62fa9f6aba55f8617881b2b81",
+          "sha256": "1ab58d0f04b3e98f7f2ed78eb77a5e9cfc6118f635a69e4d1dcc7dcb90004c79",
+          "sha1": "6b1db6f9ee92f93fb5571529214220f78e27bc7a",
+          "md5": "555496c01a9a00c1eff2baeae80d58f0"
         }
       ]
     }
